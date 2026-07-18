@@ -1,55 +1,180 @@
-*{
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     color: #FFFFFFE5;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
-header{
+body{
+    background-color: #000000;
+}
+
+header {
     background-color: #1B2226;
-    height: 52px;
+    height: 5.2rem;        /* era 52px */
     display: flex;
     flex-direction: row;
-    font-size: 12px;
+    font-size: 1.2rem;     /* era 12px */
 }
 
-#search-nav{
-    margin-left: 155px;
+#search-nav {
+    margin-left: 15.5rem;  /* era 155px */
     display: flex;
+    align-items: center;
+}
+
+#search {
+    width: 25rem;          /* era 250px */
+    height: 3.5rem;        /* era 35px */
+    margin-left: 1.5rem;   /* era 15px */
+    padding-left: 1rem;    /* era 10px */
+    background-color: #38434F;
+    border: none;
+    border-radius: 0.5rem; /* era 5px */
+}
+
+#nav-links {
+    display: flex;
+    gap: 2.5rem;           /* era 25px */
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;    /* era 150px */
+}
+
+.conjunto-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    height: 24px;          /* ícone fixo, px tá ok */
+    width: 24px;
+}
+
+main {
+    font-size: 1.4rem;
+    width: 100%;
+    max-width: 1128px;     /* não estica demais */
+    margin: 0 auto;        /* centraliza */
+    padding: 2.4rem 1.6rem;
+    padding-left: 7rem;
+}
+
+#container-posts {
+    background-color: #1B2226;
+    border: none;
+    border-radius: 1.5rem; /* era 5px */
+    width: 78rem;
+    position: fixed;
+    
+}
+
+#section-profile {
+    width: 100%;           /* era 780px fixo — quebrava em telas menores */
+    max-width: 78rem;      /* agora é flexível */
+}
+#capa-container {
+    position: relative;
+}
+
+.capa {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 1.5rem 1.5rem 0 0; /* arredonda só em cima */
+}
+
+.foto-perfil {
+    position: absolute;
+    bottom: -4rem;       /* metade pra fora da capa */
+    left: 1.6rem;        /* distância da esquerda */
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;  /* deixa redonda */
+    border: 3px solid #1B2226; /* mesma cor do fundo do card */
+    object-fit: cover;
+}
+
+#container-profile{
+    display: flex;
+    align-items: center;
+}
+
+#sobre-profile {
+    margin-top: 5rem;/* abre espaço pra foto não cobrir o texto*/
+    margin-right: 10rem;
+    padding: 0 1.6rem 0 ;
+    line-height: 2.2rem;
+
+
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+h5{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.infos-profile{
+    display: flex;
+    gap: 1rem;
+}
+
+.infos-profile span{
+    font-weight: 700;
+    color: #70B5F9;
+
+}
+
+.p-profile{
+    color: #FFFFFF99;
+
+}
+
+.aside-profile{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
     align-items: center;
     
 }
 
-#search{
-    width: 250px;
-    height: 35px;
-    margin-left: 15px;
-    padding-left: 10px;
-    background-color: #38434F;
+.aside-profile p{
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.button{
+    margin-top: 0.5rem;
+    width: 12.8rem;
+    height: 3.2rem;
+    border-radius: 1.6rem;
+    font-weight: 500;
+}
+
+#button-msg{
+    background-color: #70B5F9;
+    color: #1B2226;
     border: none;
-    border-radius: 5px;
-
+    
 }
 
-#nav-links{
-    display: flex;
-    gap: 25px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 150px;
-}
-
-.conjunto-nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.icon{
-    height: 24px;
-    width: 24px;
+#button-mais{
+    color:#70B5F9;
+    border-color: #70B5F9;
+    background-color: #1B2226;
+    
 }
 
 
