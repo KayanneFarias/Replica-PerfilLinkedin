@@ -4,7 +4,7 @@ Clone estático da interface de perfil do LinkedIn, desenvolvido durante o desaf
 
 ## 🖥️ Preview
 
-Projeto ainda em construção.
+![Preview do projeto](preview.png)
 
 ## ✅ Páginas e seções desenvolvidas
 
