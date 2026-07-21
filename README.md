@@ -10,7 +10,7 @@ Clone estático da interface de perfil do LinkedIn, desenvolvido durante o desaf
 
 - [x] Header com navegação e busca
 - [x] Seção de perfil com foto de capa e avatar
-- [ ] Destaques
+- [x] Destaques
 - [ ] Atividades
 - [ ] Sobre
 - [ ] Experiências

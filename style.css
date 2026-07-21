@@ -21,6 +21,7 @@ header {
     display: flex;
     flex-direction: row;
     font-size: 1.2rem;     /* era 12px */
+    
 }
 
 #search-nav {
@@ -68,12 +69,18 @@ main {
 }
 
 #container-posts {
+
+    
+}
+
+.sections{
     background-color: #1B2226;
     border: none;
     border-radius: 1.5rem; /* era 5px */
     width: 78rem;
-    position: fixed;
-    
+    margin-bottom: 1.5rem;
+
+
 }
 
 #section-profile {
@@ -177,5 +184,28 @@ h5{
     background-color: #1B2226;
     
 }
+
+#destaque-section h4{
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    margin-bottom: 1.7rem;
+    
+}
+
+#img-destaques{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#destaque-section{
+    padding-top: 1.5rem ;
+    padding-bottom: 1.5rem;
+
+}
+
+
 
 
